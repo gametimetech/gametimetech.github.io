@@ -1,18 +1,4 @@
-Install
-=======
-
-cabal sandbox init
-cabal install --only-dependencies
-prepath .cabal-sandbox/bin
-
-Build
-=====
-
-cabal build && ./dist/build/site/site rebuild \
-    && ./dist/build/site/site watch --p 9000 --host 192.168.192.5
-
-NOTES
-=====
+#!/bin/sh -e
 
 prepath() {
     if [ ! -d "$1" ]; then
@@ -26,3 +12,9 @@ prepath() {
         PATH="$dir:$PATH"
     fi
 }
+
+cabal sandbox init
+cabal install --only-dependencies
+prepath .cabal-sandbox/bin
+
+cabal build && ./dist/build/site/site rebuild
