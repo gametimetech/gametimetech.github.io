@@ -51,4 +51,5 @@ main = do
 pages =
     [ "jobs.html"
     , "index.html"
+    , "problem.html"
     ]

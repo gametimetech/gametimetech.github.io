@@ -17,4 +17,4 @@ cabal sandbox init
 cabal install --only-dependencies
 prepath .cabal-sandbox/bin
 
-cabal build && ./dist/build/site/site rebuild
+cabal build && ./dist/build/site/site rebuild && ./dist/build/site/site watch
