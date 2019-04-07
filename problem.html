@@ -43,8 +43,8 @@ options for you and your friends. You must satisify either of these conditions:
 
 <p>
 
-Your seats two up two adjacent rows and seats are adjacent. See the definition
-of <a href="https://www.answers.com/Q/What_are_piggy_back_seats_in_a_football_stadium">Piggy back seats</a>.
+You find <a href="https://www.answers.com/Q/What_are_piggy_back_seats_in_a_football_stadium">Piggy back seats</a>.
+These are seats in two adjacent rows, directly above/below, and are adjacent as illustrated below.
 
 </p>
 
@@ -82,81 +82,91 @@ penny if you can. Assume everyone prefers seats closer to the ends.
 
 <p>
 
-Blue sections are the best, but also the most expensive, green are mid
-range and yellow are the least expensive.
+Blue sections are the best, but also the most expensive, green, white
+are mid range and yellow are the least expensive.
 
+</p>
+
+<p>
+
+Also, in this stadium adjacent seats are not consecutive. Seats 1,3 are
+next two each other in the Blue and Yellow sections, and Seats 2,4 are
+adjacent in the Green, White Sections.
 
 </p>
 
 <img src="img/gametime-curling-labeled.jpg" alt="Curling Seat Map" />
  
 <pre><code>
-event,section,row,startseat,endseat,cost
-curling,N,2,1,1,29.1
-curling,G,2,6,6,22.02
-curling,O,2,3,3,27.2
-curling,N,2,3,3,28.1
-curling,E,1,9,9,10.4
-curling,H,2,13,13
-curling,O,2,7,7,30
-curling,E,1,7,7,10
-curling,N,2,5,5,30
-curling,L,1,5,6,44
-curling,D,2,10,10,22
-curling,E,1,11,11,10
-curling,N,1,1,4,30
-curling,D,1,1,1,10
-curling,L,1,3,4,,44
-curling,G,6,4,4,55
-curling,A,2,3,6,40
-curling,E,1,12,12,10
-curling,E,1,1,1,5
-curling,E,1,10,10,10
-curling,E,1,3,3,10
-curling,G,2,13,13
-curling,E,1,8,8,10
-curling,H,4,5,5,10
-curling,K,3,9,11,28
-curling,O,2,2,2,28
-curling,L,2,1,4,31
-curling,C,3,1,1,25
-curling,D,2,7,9,45
-curling,G,4,5,5,10
-curling,L,1,7,9,60
-curling,L,3,1,4,28.5
-curling,H,3,2,2,25
-curling,A,1,3,4,40
-curling,E,1,13,13
-curling,A,3,1,6,30
-curling,E,1,4,4,55
-curling,K,2,8,9,28
-curling,G,4,1,4,10
-curling,E,1,6,6,10
-curling,G,4,3,3,10
-curling,N,4,2,9,30
-curling,L,3,5,7,28.5
-curling,K,1,1,1,31
-curling,H,4,3,3,10
-curling,D,2,1,3,27.5
-curling,G,3,2,2,25
-curling,D,3,2,5,28
-curling,O,2,1,1,30
-curling,N,2,7,7,31
-curling,L,2,6,9,31
-curling,E,1,2,2,25
-curling,N,2,6,6,31
-curling,N,3,2,2,28
-curling,O,2,6,6,30
-curling,O,2,4,4,30
-curling,O,2,5,5,30
-curling,G,3,1,2,102
-curling,K,2,9,11,28
-curling,E,1,5,5,10
-curling,C,2,1,4,20
-curling,D,1,2,6,50
-curling,D,4,1,3,25
-curling,K,2,1,6,30
-curling,K,2,1,2,28
-curling,H,2,6,6,10
-curling,H,6,4,4,55
+event,section,row,startseat,endseat,cost,odd/even
+curling,A,1,2,4,40,even
+curling,A,2,6,10,40,even
+curling,A,3,2,12,30,even
+curling,C1,2,1,4,20,even
+curling,C1,3,1,1,25,even
+curling,D,1,1,1,10,odd
+curling,D,1,3,9,50,odd
+curling,D,2,1,5,27.5,odd
+curling,D,2,11,11,22,odd
+curling,D,2,7,11,45,odd
+curling,D,3,1,7,28,odd
+---todo
+
+curling,D,4,1,3,25,odd
+curling,E,1,1,1,5,odd
+curling,E,1,10,10,10,odd
+curling,E,1,11,11,10,odd
+curling,E,1,12,12,10,odd
+curling,E,1,13,13,odd
+curling,E,1,2,2,25,odd
+curling,E,1,3,3,10,odd
+curling,E,1,4,4,55,odd
+curling,E,1,5,5,10,odd
+curling,E,1,6,6,10,odd
+curling,E,1,7,7,10,odd
+curling,E,1,8,8,10,odd
+curling,E,1,9,9,10.4,odd
+curling,G,2,13,13,odd
+curling,G,2,6,6,22.02,odd
+curling,G,3,1,2,102,odd
+curling,G,3,2,2,25,odd
+curling,G,4,1,4,10,odd
+curling,G,4,3,3,10,odd
+curling,G,4,5,5,10,odd
+curling,G,6,4,4,55,odd
+curling,H,2,13,13,odd
+curling,H,2,6,6,10,odd
+curling,H,3,2,2,25,odd
+curling,H,4,3,3,10,odd
+curling,H,4,5,5,10,odd
+curling,H,6,4,4,55,odd
+curling,K,1,1,1,31,even
+curling,K,2,1,2,28,even
+curling,K,2,1,6,30,even
+curling,K,2,8,9,28,even
+curling,K,2,9,11,28,even
+curling,K,3,9,11,28,even
+curling,L,1,3,4,44,even
+curling,L,1,5,6,44,even
+curling,L,1,7,9,60,even
+curling,L,2,1,4,31,even
+curling,L,2,6,9,31,even
+curling,L,3,1,4,28.5,even
+curling,L,3,5,7,28.5,even
+curling,N,1,1,4,30,odd
+curling,N,2,1,1,29.1,odd
+curling,N,2,3,3,28.1,odd
+curling,N,2,5,5,30,odd
+curling,N,2,6,6,31,odd
+curling,N,2,7,7,31,odd
+curling,N,3,2,2,28,odd
+curling,N,4,2,9,30,odd
+curling,O,2,1,1,30,odd
+curling,O,2,2,2,28,odd
+curling,O,2,3,3,27.2,odd
+curling,O,2,4,4,30,odd
+curling,O,2,5,5,30,odd
+curling,O,2,6,6,30,odd
+curling,O,2,7,7,30,odd
+
 </code></pre>
